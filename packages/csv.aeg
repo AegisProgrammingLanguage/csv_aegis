@@ -1,0 +1,11 @@
+namespace Csv {
+    // Convertit une chaîne CSV en une Liste de Dictionnaires
+    func parse(csv_text) {
+        return csv_parse(csv_text)
+    }
+
+    // Convertit une Liste de Dictionnaires en chaîne CSV
+    func stringify(data_list) {
+        return csv_stringify(data_list)
+    }
+}
