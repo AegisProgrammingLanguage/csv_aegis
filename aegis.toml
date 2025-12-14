@@ -1,0 +1,19 @@
+[project]
+name = "csv"
+version = "0.1.0"
+description = ""
+author = "Ethan Rucar <ethan.rucar@gmail.com>"
+license = "MIT"
+exclude = [
+    "src",
+    "target",
+    "Cargo.lock",
+    "Cargo.toml"
+]
+
+[targets]
+linux = "libcsv.so"
+window = "csv.dll"
+macos = "libcsv.dylib"
+
+[dependencies]
